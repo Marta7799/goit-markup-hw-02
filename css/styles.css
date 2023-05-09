@@ -1,0 +1,42 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #212121
+  background-color: #E5E5E5;
+
+ webstudio {
+  font-family: 'Raleway'; sans-serif;
+  color: #2196F3;
+  font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+} 
+.span {
+  color:#2196F3
+}
+
+  a.button:hover,
+ a.button:focus {
+    color: purple;
+  }
+
+  .link:active {
+    color: blue;
+  }
+  button {
+    cursor: pointer;
+    color: inherit;
+  }
+  title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+  }
+  text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+:root {
+
+}
+}
