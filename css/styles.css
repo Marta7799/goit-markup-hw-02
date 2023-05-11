@@ -3,6 +3,9 @@ body {
   color: #212121
   background-color: #E5E5E5;
 }
+a {
+  text-decoration:none;
+}
 .header {
   background-color: #FFFFFF;
   color: #212121;
