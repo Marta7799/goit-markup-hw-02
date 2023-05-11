@@ -1,42 +1,133 @@
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #212121
   background-color: #E5E5E5;
+}
+.header {
+  background-color: #FFFFFF;
+  color: #212121;
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color:#2196F3;
+}
+  
+.contact-mail:hover,
+.contact-mail:focus {
+  color:#2196F3;
+}
+.contact-tel:focus,
+.contact-tel:hover {
+  color:#2196F3;
+}
 
- webstudio {
-  font-family: 'Raleway'; sans-serif;
-  color: #2196F3;
-  font-weight: 700;
+.webstudio {
+  font-family: 'Raleway';
+font-weight: 700;
 font-size: 26px;
-line-height: 31px;
-} 
+line-height: 1.2;
+color:#212121
+}
 span {
+  color:#2196F3;
+
+}
+.effects-title {
+  font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+}
+.effects-button:focus,
+.effects-button:hover
+
+.effects-button {
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.36;
+color: #FFFFFF;
+background: #2196F3;
+cursor: pointer;
+}
+.description-title {
+  font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.description-text {
+font-size: 14px;
+line-height: 1.71;
+}
+.doing-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team-name {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.19x;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team-job {
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+button:hover,
+button:focus {
+  background:#2196F3
+}
+button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+}
+.portfolio-img-title {
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.portfolio-img-tekst {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}
+footer {
+background: #2F303A;
+}
+.footer-webstudio {
+  font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:#FFFFFF
+}
+span{
   color:#2196F3
 }
-
-  a.button:hover,
- a.button:focus {
-    color: purple;
-  }
-
-  .link:active {
-    color: blue;
-  }
-  button {
-    cursor: pointer;
-    color: inherit;
-  }
-  title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-  }
-  text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-  }
-:root {
-
-}
+.address-item:hover,
+.address-item:focus {
+  color:#2196F3;
 }
