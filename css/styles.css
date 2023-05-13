@@ -48,6 +48,9 @@ ol {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+.current {
+  color: var(--acent-color);
+}
 
 .contact-mail:hover,
 .contact-mail:focus {
@@ -56,6 +59,13 @@ ol {
 .contact-tel:focus,
 .contact-tel:hover {
   color: var(--acent-color);
+}
+.contact-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--other-text-color);
 }
 
 .webstudio {
@@ -84,6 +94,10 @@ ol {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
 }
 .effects-button:focus,
 .effects-button:hover {
@@ -95,6 +109,7 @@ ol {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   color: var(--secondary-text-color);
   background: var(--acent-color);
   cursor: pointer;
@@ -135,7 +150,7 @@ ol {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19x;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
